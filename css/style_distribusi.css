@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navigasi {
+    background-color: gray;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navigasi ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    background-color: #454545;
+}
+
+.navigasi li {
+    background-color: #454545;
+}
+
+.navigasi a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    gap: 30px;
+    margin-left: 20px;
+
+}
+
+.navigasi a:hover {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    transition: 0.5s;
+    border-radius: 40px;
+    color: black;
+}
