@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
@@ -46,84 +46,80 @@ html {
 
 /* HEADER */
 .section-header {
-  background: #f9b733;
-  padding: 60px 20px;
-  margin-top: 0px!important;
+  background: #FABD12;
+  margin-top: 0px;
   text-align: center;
   color: white;
 }
 
 .section-header h1 {
-  font-size: 32px;
+  font-size: 40px;
   margin-bottom: 32px;
+  padding-top: 60px;
 }
 
 .section-header p {
-  max-width: 700px;
+  max-width: 1000px;
   margin: auto;
   line-height: 1.6;
-  font-size: large;
-}
-
-/* WAVE AFTER HEADER & BOTTOM */
-.wave-bottom-header,
-.wave-bottom-page {
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;       /* penting biar ga ada celah putih */
-}
-
-.wave-bottom-header svg,
-.wave-bottom-page svg {
-  width: 100%;
-  height: 120px;        /* tinggal kamu gedein kalau mau wave lebih tebal */
-  display: block;
+  font-size: 25px;
 }
 
 /* FUN FACT SECTION */
 .fun-section {
-  background: #333;
+  background: #454545;
   color: white;
   text-align: center;
-  padding: 50px 20px;
 }
 
 .fun-section h2 {
-  font-size: 26px;
+  font-size: 50px;
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .card {
   display: flex;
   background: #ffffff;
-  border: 2px solid #f9b733;
-  padding: 20px;
+  border: 2px solid #FABD12;
+  width: 1200px;
+  height: 300px;
   border-radius: 15px;
-  max-width: 700px;
   margin: 0 auto 30px;
   gap: 20px;
   align-items: center;
 }
 
 .card img {
-  width: 120px;
+  width: 220px;
   border-radius: 10px;
+  margin: 20px;
 }
 
 .card p {
   text-align: left;
   line-height: 1.5;
   color: #0f0f0f;
+  margin: 20px;
+  font-size: 25px;
 }
 
 /* BUTTON */
 .btn {
-  padding: 12px 22px;
-  background: #f9b733;
-  border: none;
-  border-radius: 20px;
-  font-weight: bold;
-  cursor: pointer;
+    width: 350px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #FABD12;
+    margin-top: 50px;
+    color: white;
+    transition: 0.3s; 
+    cursor: pointer;
+}
+.btn:hover{
+    color: #454545;
+    background-color: white;
+    cursor: pointer;
 }
 
 /* FOOTER */
@@ -135,4 +131,11 @@ html {
 .hak-cipta {
   text-align: center;
   color: white;
+}
+.wave-oren{
+  height: 100%;
+  margin-bottom: -30px;
+}
+.wave-abu{
+  margin-bottom: -10px;
 }
